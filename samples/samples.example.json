@@ -1,0 +1,7 @@
+{
+  "_base": "/samples/",
+  "kick": ["drums/kick-01.wav", "drums/kick-02.wav"],
+  "snare": ["drums/snare-01.wav"],
+  "shaker": ["perc/shaker-01.wav"],
+  "pad": { "c3": "keys/pad-c3.wav", "c4": "keys/pad-c4.wav" }
+}

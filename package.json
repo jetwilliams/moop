@@ -1,0 +1,28 @@
+{
+  "name": "moop",
+  "version": "0.1.0",
+  "description": "Grow your own music: an AI agent writes music as code, you rate it on your phone, and your ratings become taste rules the next batch follows.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lab": "node lab/server.mjs",
+    "link": "node tools/link.mjs",
+    "demo": "node tools/demo-batch.mjs",
+    "check": "node tools/check-batch.mjs",
+    "report": "node tools/taste-report.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "strudel",
+    "live-coding",
+    "algorithmic-music",
+    "ai-agent",
+    "taste",
+    "feedback-loop"
+  ],
+  "author": "Jet Williams",
+  "license": "AGPL-3.0-or-later"
+}

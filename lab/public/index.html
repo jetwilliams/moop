@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Taste lab</title>
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+  <header>
+    <h1>Taste lab</h1>
+    <label class="pick">Batch <select id="batch" aria-label="Choose a batch"></select></label>
+    <p id="progress" class="sub" aria-live="polite"></p>
+    <p id="engine-status" class="sub" aria-live="polite"></p>
+  </header>
+  <main id="list"></main>
+  <footer>
+    <button id="stop" type="button">Stop</button>
+    <button id="logout" type="button" class="quiet">Log out</button>
+  </footer>
+  <audio id="player" preload="none"></audio>
+  <script src="/engines/strudel/player.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
